@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aashriya Grocery Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #4CAF50;
+    }
+    section {
+      padding: 2rem;
+    }
+    .products table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .products th, .products td {
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aashriya Grocery Store</h1>
+    <p>Freshness Delivered Daily in the Esteval area of Montijo</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+    <a href="#photo">Photo</a>
+    <a href="#family">Family</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Your neighborhood destination for fresh produce, pantry staples, and everyday essentials.</p>
+    <ul>
+      <li>Locally sourced fruits and vegetables</li>
+      <li>Organic and specialty items available</li>
+      <li>Weekly deals and discounts</li>
+    </ul>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <table>
+      <tr><th>Category</th><th>Highlights</th></tr>
+      <tr><td>Fresh Produce</td><td>Seasonal fruits, leafy greens, herbs</td></tr>
+      <tr><td>Dairy & Bakery</td><td>Milk, yogurt, bread, pastries</td></tr>
+      <tr><td>Pantry Staples</td><td>Rice, lentils, spices, oils</td></tr>
+      <tr><td>Snacks & Beverages</td><td>Chips, cookies, juices, soft drinks, beers, wines </td></tr>
+      <tr><td>Organic & Health</td><td>Vegan, sugar-free items</td></tr>
+    </table>
+  </section>
+
+  <section id="offers">
+    <h2>Offers & Updates</h2>
+    <ul>
+      <li>🍎 Fresh Fruits Festival – 20% off all fruits this week</li>
+      <li>🥛 Buy 2 get 1 free on selected items </li>
+      <li>🛒 Free home delivery on orders above €50</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Rua Dr Antonio C F Trindade Loja 166, Montijo (Postal code 2870-255) </p>
+    <p><strong>Phone:</strong> +351 21 231 5794 </p>
+    <p><strong>Email: </strong> aashriyagrocerystore@gmail.com </p>
+    <p><strong>Hours:</strong> Open Daily: 6 AM – 9 PM</p>
+    <p><strong>Google:</strong>  P27Q+72R </p>
+  </section>
+<section id="photo">
+    <h2>Photo</h2>
+ <img src="images/shop.jpg" alt="Interior" width="500" height="300">
+    <p><strong> </strong>  </p>
+  </section>
+<section id="family">
+    <h2>Family</h2>
+    <p><strong> </strong> Family (Aashriya, Amodini, Sushila and Hari) owned business </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aashriya Grocery Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
